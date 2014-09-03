@@ -28,28 +28,28 @@
             <h2>Demo 1</h2>
             <div>
                 <ul class='nav nav-wizard'>
-                    <li id="nav1" class='active'><a href='#step1' data-toggle="tab">Step 1 - Completed</a></li>
-                    <li id="nav2"><a href='#step2' data-toggle="tab">Step 2 - Completed</a></li>
-                    <li id="nav3"><a href='#step3' data-toggle="tab">Step 3 - Active</a></li>
-                    <li id="nav4"><a href='#step4' data-toggle="tab">Step 4 - Active</a></li>
-                    <li id="nav5"><a href='#step5' data-toggle="tab">Step 5 - Active</a></li>
+                    <li id="nav1" class='active'><a href='#step1' data-toggle="tab">Step 1 - Introduction</a></li>
+                    <li id="nav2"><a href='#step2' data-toggle="tab">Step 2 - Initial Steps</a></li>
+                    <li id="nav3"><a href='#step3' data-toggle="tab">Step 3 - Getting Data</a></li>
+                    <li id="nav4"><a href='#step4' data-toggle="tab">Step 4 - Settings</a></li>
+                    <li id="nav5"><a href='#step5' data-toggle="tab">Step 5 - Conclustion</a></li>
                 </ul>
                 <br />
                 <div id="myTabContent" class="tab-content">
                     <div class="tab-pane fade  active in" id="step1">
-                        <p>Step 1</p>
+                        <p>Step 1 Introduction</p>
                     </div>
                     <div class="tab-pane fade" id="step2">
-                        <p>Step 2</p>
+                        <p>Step 2 Initial Steps</p>
                     </div>
                     <div class="tab-pane fade" id="step3">
-                        <p>Step 3</p>
+                        <p>Step 3 Getting Data</p>
                     </div>
                     <div class="tab-pane fade " id="step4">
-                        <p>Step 4</p>
+                        <p>Step 4 Settings</p>
                     </div>
                     <div class="tab-pane fade " id="step5">
-                        <p>Step 5</p>
+                        <p>Step 5 Conclustion</p>
                     </div>
                 </div>
                 <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary">< Previous</button>
