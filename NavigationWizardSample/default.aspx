@@ -15,7 +15,7 @@
   <div class="navbar navbar-inverse" style="border-radius:0">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Bootstrap Wizard Navigation</a>
+                <a class="navbar-brand" href="#">Bootstrap Wizard Navigation</a>   
             </div>
         </div>
     </div>
