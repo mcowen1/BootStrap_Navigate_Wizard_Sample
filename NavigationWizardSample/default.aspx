@@ -27,7 +27,7 @@
         <div class='row'>
             <h2>Demo 1</h2>
             <div>
-                <ul class='nav nav-wizard'>
+                <ul id="Steps" class='nav nav-wizard'>
                     <li id="nav1" class='active'><a href='#step1' data-toggle="tab">Step 1 - Introduction</a></li>
                     <li id="nav2"><a href='#step2' data-toggle="tab">Step 2 - Initial Steps</a></li>
                     <li id="nav3"><a href='#step3' data-toggle="tab">Step 3 - Getting Data</a></li>
@@ -52,7 +52,7 @@
                         <p>Step 5 Conclustion</p>
                     </div>
                 </div>
-                <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary">< Previous</button>
+                <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary" disabled="disabled">< Previous</button>
                 <button type="button" id="btnNext" title="Move Next" class="btn btn-primary">Next ></button>
             </div>
         </div>
@@ -62,11 +62,22 @@
     <script>
         $(function () {
 
+
             $('#btnNext').click(function () {
+
+                var n = $("li").length;
                 $("li.active").next().addClass("active");
                 $(".tab-pane.active").next().addClass("active in");
                 $("li.active").prev().removeClass("active");
                 $(".tab-pane.active").prev().removeClass("active in");
+
+                if($('#Steps').children('li').last().hasClass('active'))
+                {
+                
+                    $('#btnNext').attr('disabled', 'disabled'); 
+                }
+               $('#btnPrev').removeAttr('disabled');
+   
             });
 
             $('#btnPrev').click(function () {
@@ -74,6 +85,11 @@
                 $(".tab-pane.active").prev().addClass("active in");
                 $("li.active").next().removeClass("active");
                 $(".tab-pane.active").next().removeClass("active in");
+                if ($("#nav1").hasClass("active")) {
+                    $('#btnPrev').attr('disabled', 'disabled');
+                }
+                $('#btnNext').removeAttr('disabled');
+                
             });
         });
 
