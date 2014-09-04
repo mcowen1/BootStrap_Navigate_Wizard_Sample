@@ -61,19 +61,14 @@
 
     <script>
         $(function () {
-
-
             $('#btnNext').click(function () {
-
                 var n = $("li").length;
                 $("li.active").next().addClass("active");
                 $(".tab-pane.active").next().addClass("active in");
                 $("li.active").prev().removeClass("active");
                 $(".tab-pane.active").prev().removeClass("active in");
-
                 if($('#Steps').children('li').last().hasClass('active'))
                 {
-                
                     $('#btnNext').attr('disabled', 'disabled'); 
                 }
                $('#btnPrev').removeAttr('disabled');
@@ -89,7 +84,7 @@
                     $('#btnPrev').attr('disabled', 'disabled');
                 }
                 $('#btnNext').removeAttr('disabled');
-                
+                   
             });
         });
 
