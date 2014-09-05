@@ -61,6 +61,30 @@
 
     <script>
         $(function () {
+            
+             var n = $('ul#Steps li').length;
+            $('ul#Steps li').click(function(){
+                var x = $('ul#Steps li').index(this);
+                if (x == (n - 1)) {
+                    $('#btnNext').attr('disabled', 'disabled');
+
+                }
+                else {
+                    $('#btnNext').removeAttr('disabled');
+
+                }
+                if (x == 0) {
+                    $('#btnPrev').attr('disabled', 'disabled');
+
+                }
+                else {
+
+                    $('#btnPrev').removeAttr('disabled');
+                }
+
+            });
+           
+
             $('#btnNext').click(function () {
                 var n = $("li").length;
                 $("li.active").next().addClass("active");
