@@ -22,7 +22,7 @@
     <div class="container">
         <div>
             <h1>Bootstrap Wizard Navigation</h1>
-            <p class="lead">Navigation Wizard with next and previous buttons - using CSS and jQuery</p>
+            <p class="lead">Navigation Wizard with "NEXT" or "PREVIOUS" buttons CSS and jQuery</p>
         </div>
         <div class='row'>
             <h2>Demo 1</h2>
