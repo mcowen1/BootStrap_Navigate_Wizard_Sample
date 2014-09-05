@@ -83,7 +83,7 @@ ul.nav-wizard li.active a,
 ul.nav-wizard li.active a:active,
 ul.nav-wizard li.active a:visited,
 ul.nav-wizard li.active a:focus {
-  color: #3a87ad;
+  color: darkblue;
   background: #d9edf7;
 }
 ul.nav-wizard .active ~ li {
