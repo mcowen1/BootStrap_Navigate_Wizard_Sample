@@ -19,6 +19,7 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div>
             <h1>Bootstrap Wizard Navigation</h1>
