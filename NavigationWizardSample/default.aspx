@@ -50,7 +50,7 @@
                         <p>Step 4 Settings</p>
                     </div>
                     <div class="tab-pane fade " id="step5">
-                        <p>Step 5 Conclustion</p>
+                        <p>Step 5 End</p>
                     </div>
                 </div>
                 <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary" disabled="disabled">< Previous</button>
