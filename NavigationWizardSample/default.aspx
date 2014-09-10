@@ -32,7 +32,7 @@
                     <li id="nav2"><a href='#step2' data-toggle="tab">Step 2 - Initial Steps</a></li>
                     <li id="nav3"><a href='#step3' data-toggle="tab">Step 3 - Getting Data</a></li>
                     <li id="nav4"><a href='#step4' data-toggle="tab">Step 4 - Settings</a></li>
-                    <li id="nav5"><a href='#step5' data-toggle="tab">Step 5 - Conclustion</a></li>
+                    <li id="nav5"><a href='#step5' data-toggle="tab">Step 5 - End</a></li>
                 </ul>
                 <br />
                 <div id="myTabContent" class="tab-content">
@@ -49,7 +49,7 @@
                         <p>Step 4 Settings</p>
                     </div>
                     <div class="tab-pane fade " id="step5">
-                        <p>Step 5 Conclustion</p>
+                        <p>Step 5 End</p>
                     </div>
                 </div>
                 <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary" disabled="disabled">< Previous</button>
