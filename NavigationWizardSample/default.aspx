@@ -19,10 +19,11 @@
             </div>
         </div>
     </div>
+
     <div class="container">
         <div>
             <h1>Bootstrap Wizard Navigation</h1>
-            <p class="lead">Navigation Wizard with next and previous buttons - using CSS and jQuery</p>
+            <p class="lead">Navigation Wizard with "NEXT" or "PREVIOUS" buttons CSS and jQuery</p>
         </div>
         <div class='row'>
             <h2>Demo 1</h2>
@@ -49,7 +50,7 @@
                         <p>Step 4 Settings</p>
                     </div>
                     <div class="tab-pane fade " id="step5">
-                        <p>Step 5 Conclustion</p>
+                        <p>Step 5 End</p>
                     </div>
                 </div>
                 <button type="button" id="btnPrev" title="Move Next" class="btn btn-primary" disabled="disabled">< Previous</button>
