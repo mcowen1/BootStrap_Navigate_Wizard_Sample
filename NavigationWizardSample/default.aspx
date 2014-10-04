@@ -4,7 +4,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Navigation Wizard</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-nav-wizard.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
@@ -16,6 +17,8 @@
         <div class="navbar navbar-inverse" style="border-radius: 0">
             <div class="container">
                 <div class="navbar-header">
+                    <a class="navbar-brand   nav-menu-image" href="http://www.mcowendesign.com">
+                    <img src="Images/logo48.png" alt="" title="A Product of m.cowen design"/></a>
                     <a class="navbar-brand" href="#">Bootstrap Wizard Navigation</a>
                 </div>
             </div>
