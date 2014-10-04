@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Navigation Wizard</title>
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="Images/logo48.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-nav-wizard.css" rel="stylesheet" />
     <link href="Content/site.css" rel="stylesheet" />
