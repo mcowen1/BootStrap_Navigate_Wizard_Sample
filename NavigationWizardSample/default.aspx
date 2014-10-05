@@ -17,8 +17,8 @@
         <div class="navbar navbar-inverse" style="border-radius: 0">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand   nav-menu-image" href="http://www.mcowendesign.com">
-                    <img src="Images/logo48.png" alt="" title="A Product of m.cowen design"/></a>
+                    <a class="navbar-brand   nav-menu-image" href="http://www.mcowendesign.com"  target="_blank">
+                    <img src="Images/logo48.png" alt=""  title="A Product of m.cowen design"/></a>
                     <a class="navbar-brand" href="#">Bootstrap Wizard Navigation</a>
                 </div>
             </div>
