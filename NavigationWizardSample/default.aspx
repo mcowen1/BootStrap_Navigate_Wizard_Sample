@@ -52,16 +52,16 @@
                         <div class="tab-pane fade  active in" id="step1">
                             <p>Step 1 Introduction</p>
                         </div>
-                        <div class="tab-pane fade" id="step2">
+                        <div class="tab-pane " id="step2">
                             <p>Step 2 Initial Steps</p>
                         </div>
-                        <div class="tab-pane fade" id="step3">
+                        <div class="tab-pane" id="step3">
                             <p>Step 3 Getting Data</p>
                         </div>
-                        <div class="tab-pane fade " id="step4">
+                        <div class="tab-pane" id="step4">
                             <p>Step 4 Settings</p>
                         </div>
-                        <div class="tab-pane fade " id="step5">
+                        <div class="tab-pane" id="step5">
                             <p>Step 5 End</p>
                         </div>
                     </div>
