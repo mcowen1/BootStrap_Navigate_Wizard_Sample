@@ -7,7 +7,6 @@
     padding:40px;
     height:auto;
     width:auto;
-   
 }
 
 .nobordereddiv {
@@ -17,37 +16,25 @@
     padding:40px;
     height:auto;
     width:auto;
-   
 }
 
 .nav-menu-image {
     margin-top:-14px;
-
 }
 
 #step1 {
-
- background-color:white;
  color:blue;
 }
 #step2 {
-
-
  color:green;
 }
 #step3 {
-
-
  color:darkcyan;
 }
 #step4 {
-
- 
  color:darkgoldenrod;
 }
 #step5 {
-
-
  color:darkmagenta;
 }
 
